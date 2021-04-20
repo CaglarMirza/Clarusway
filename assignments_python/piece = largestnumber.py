@@ -1,13 +1,21 @@
-piece = int(input("How many numbers will you enter?"))
-start = 1
-list2 = []
-while start <= piece:
-    print_piece = int(input("Please enter the number :"))
-    list2.append(print_piece)
-    start += 1
-list2.sort()
-print(list2[-1])
 
+piece = int(input("How many numbers will you enter? "))
+number = [int(input("Please enter the number : ")) for i in range(piece)]
+print(f"The largest number is {sorted(number)[-1]}" )
+
+
+
+# piece = int(input("How many numbers will you enter?"))
+# start = 1
+# list2 = []
+# while start <= piece:
+#     print_piece = int(input("Please enter the number :"))
+#     list2.append(print_piece)
+#     start += 1
+# list2.sort()
+# print(list2[-1])
+
+########################
 
 # list1 = []
 # for i in range(1, piece+1):
@@ -20,10 +28,3 @@ print(list2[-1])
 
 
 
-
-
-
-
-# while start <= piece:
-#     print(print_piece)
-#     start += 1
