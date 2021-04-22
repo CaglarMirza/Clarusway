@@ -1,4 +1,3 @@
-
 age=  input("Are you a cigarette addict older than 75 years old?").lower().strip()
 chronic = input("Do you have a severe chronic disease?").lower().strip()
 immune = input("Is your immune system too weak?").lower().strip()
@@ -12,13 +11,14 @@ elif age == "no":
         if immune == "yes":
             print("in risk")
         elif immune == "no":
-             print("sen yasiyosun bu hayti")
+             print(" yasiyosun bu hayati")
         else:
             print('gecerli immue deger girin')
     else:
         print('gecerli chorinic deger girin')
 else:
     print('gecerli age deger girin')
+
 
 ############################
 
