@@ -20,17 +20,17 @@ else:
     print('gecerli age deger girin')
 
 #########################
-for i in range(1):
-    while True:
-        age=  input("Are you a cigarette addict older than 75 years old?").lower().strip()
-        if age == "yes":
-            age = True
-            break
-        elif age == "no":
-            age = False
-            break
-        
-        print("lusfen  ", age, " yerine 'Yes' yada 'No' bir deger girin yazin")
+
+while True:
+    age=  input("Are you a cigarette addict older than 75 years old?").lower().strip()
+    if age == "yes":
+        age = True
+        break
+    elif age == "no":
+        age = False
+        break
+    
+    print("lusfen  ", age, " yerine 'Yes' yada 'No' bir deger girin yazin")
             
 print(age)
 ############################
