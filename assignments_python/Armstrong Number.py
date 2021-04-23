@@ -5,7 +5,6 @@ if not (value.isnumeric()):
 else:
     for i in list(value):
         list_sum.append(int(i)**len(value))
-
     if sum(list_sum) == int(value):
         print(f"'{value}' is an Armstrong number")
     else:
