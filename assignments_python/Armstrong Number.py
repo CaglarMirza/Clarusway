@@ -10,3 +10,6 @@ else:
         print(f"'{value}' is an Armstrong number")
     else:
         print(f"'{value}' is not an Armstrong number")
+
+
+        # whilenin icine alip tekrar sordurmayi yap
